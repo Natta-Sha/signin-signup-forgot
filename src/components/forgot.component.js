@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 export default class Forgot extends Component {
   render() {
     return (
@@ -19,7 +20,7 @@ export default class Forgot extends Component {
           </button>
         </div>
         <p className="forgot-password text-right">
-          <a href="/sign-in">Back to sign in</a>
+          <Link to="/sign-in">Back to sign in</Link>
         </p>
       </form>
     );
